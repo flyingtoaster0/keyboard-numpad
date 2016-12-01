@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Users/flyin/OneDrive/Documents/GitHub/keyboard-numpad/pcb/Numpad.sch)
-    (date "11/30/2016 9:41:57 PM")
+    (date "11/30/2016 11:13:39 PM")
     (tool "Eeschema 4.0.4-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -23,7 +23,7 @@
       (tstamp 57D5FA60))
     (comp (ref P1)
       (value USB-MICRO-B)
-      (footprint Connect:USB_Micro-B)
+      (footprint 10118192-0001LF:10118192-0001LF)
       (libsource (lib conn) (part USB_OTG))
       (sheetpath (names /) (tstamps /))
       (tstamp 57D5FB17))
