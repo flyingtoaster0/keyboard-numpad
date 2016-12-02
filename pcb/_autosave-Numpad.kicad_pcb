@@ -1,14 +1,14 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.4-stable)
 
   (general
-    (links 106)
-    (no_connects 106)
+    (links 102)
+    (no_connects 100)
     (area 65.303399 55.114199 142.967291 172.0374)
     (thickness 1.6)
     (drawings 0)
-    (tracks 0)
+    (tracks 4)
     (zones 0)
-    (modules 61)
+    (modules 57)
     (nets 62)
   )
 
@@ -399,15 +399,15 @@
   )
 
   (module Diodes_SMD:SOD-123 (layer B.Cu) (tedit 583F988C) (tstamp 583F89FF)
-    (at 74.93 73.66 180)
+    (at 71.247 75.438 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /57D61AEB)
     (attr smd)
-    (fp_text reference D1 (at 0 2 180) (layer B.SilkS)
+    (fp_text reference D1 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value D (at 0 -2.1 180) (layer B.Fab)
+    (fp_text value D (at 0 -2.1 90) (layer B.Fab)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start 0.25 0) (end 0.75 0) (layer B.Fab) (width 0.15))
@@ -427,9 +427,9 @@
     (fp_line (start -2.25 1.05) (end -2.25 -1.05) (layer B.CrtYd) (width 0.05))
     (fp_line (start -2 -0.9) (end 1 -0.9) (layer B.SilkS) (width 0.15))
     (fp_line (start -2 0.9) (end 1 0.9) (layer B.SilkS) (width 0.15))
-    (pad 1 smd rect (at -1.635 0 180) (size 0.91 1.22) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.635 0 90) (size 0.91 1.22) (layers B.Cu B.Paste B.Mask)
       (net 6 /COL0))
-    (pad 2 smd rect (at 1.635 0 180) (size 0.91 1.22) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.635 0 90) (size 0.91 1.22) (layers B.Cu B.Paste B.Mask)
       (net 7 "Net-(D1-Pad2)"))
     (model ${KISYS3DMOD}/Diodes_SMD.3dshapes/SOD-123.wrl
       (at (xyz 0 0 0))
@@ -559,15 +559,15 @@
   )
 
   (module Diodes_SMD:SOD-123 (layer B.Cu) (tedit 583F986B) (tstamp 583F8A17)
-    (at 74.93 92.71 180)
+    (at 71.247 94.742 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /57D62376)
     (attr smd)
-    (fp_text reference D5 (at 0 -2 180) (layer B.SilkS)
+    (fp_text reference D5 (at 0 -2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value D (at 0 -2.1 180) (layer B.Fab)
+    (fp_text value D (at 0 -2.1 90) (layer B.Fab)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start 0.25 0) (end 0.75 0) (layer B.Fab) (width 0.15))
@@ -587,9 +587,9 @@
     (fp_line (start -2.25 1.05) (end -2.25 -1.05) (layer B.CrtYd) (width 0.05))
     (fp_line (start -2 -0.9) (end 1 -0.9) (layer B.SilkS) (width 0.15))
     (fp_line (start -2 0.9) (end 1 0.9) (layer B.SilkS) (width 0.15))
-    (pad 1 smd rect (at -1.635 0 180) (size 0.91 1.22) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.635 0 90) (size 0.91 1.22) (layers B.Cu B.Paste B.Mask)
       (net 6 /COL0))
-    (pad 2 smd rect (at 1.635 0 180) (size 0.91 1.22) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.635 0 90) (size 0.91 1.22) (layers B.Cu B.Paste B.Mask)
       (net 14 "Net-(D5-Pad2)"))
     (model ${KISYS3DMOD}/Diodes_SMD.3dshapes/SOD-123.wrl
       (at (xyz 0 0 0))
@@ -719,15 +719,15 @@
   )
 
   (module Diodes_SMD:SOD-123 (layer B.Cu) (tedit 5753A53E) (tstamp 583F8A2F)
-    (at 74.93 111.76 180)
+    (at 71.247 113.538 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /57D62D57)
     (attr smd)
-    (fp_text reference D9 (at 0 2 180) (layer B.SilkS)
+    (fp_text reference D9 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value D (at 0 -2.1 180) (layer B.Fab)
+    (fp_text value D (at 0 -2.1 90) (layer B.Fab)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start 0.25 0) (end 0.75 0) (layer B.Fab) (width 0.15))
@@ -747,9 +747,9 @@
     (fp_line (start -2.25 1.05) (end -2.25 -1.05) (layer B.CrtYd) (width 0.05))
     (fp_line (start -2 -0.9) (end 1 -0.9) (layer B.SilkS) (width 0.15))
     (fp_line (start -2 0.9) (end 1 0.9) (layer B.SilkS) (width 0.15))
-    (pad 1 smd rect (at -1.635 0 180) (size 0.91 1.22) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.635 0 90) (size 0.91 1.22) (layers B.Cu B.Paste B.Mask)
       (net 6 /COL0))
-    (pad 2 smd rect (at 1.635 0 180) (size 0.91 1.22) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.635 0 90) (size 0.91 1.22) (layers B.Cu B.Paste B.Mask)
       (net 18 "Net-(D9-Pad2)"))
     (model ${KISYS3DMOD}/Diodes_SMD.3dshapes/SOD-123.wrl
       (at (xyz 0 0 0))
@@ -879,15 +879,15 @@
   )
 
   (module Diodes_SMD:SOD-123 (layer B.Cu) (tedit 5753A53E) (tstamp 583F8A47)
-    (at 74.93 130.81 180)
+    (at 71.247 132.842 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /57D6369B)
     (attr smd)
-    (fp_text reference D13 (at 0 2 180) (layer B.SilkS)
+    (fp_text reference D13 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value D (at 0 -2.1 180) (layer B.Fab)
+    (fp_text value D (at 0 -2.1 90) (layer B.Fab)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start 0.25 0) (end 0.75 0) (layer B.Fab) (width 0.15))
@@ -907,9 +907,9 @@
     (fp_line (start -2.25 1.05) (end -2.25 -1.05) (layer B.CrtYd) (width 0.05))
     (fp_line (start -2 -0.9) (end 1 -0.9) (layer B.SilkS) (width 0.15))
     (fp_line (start -2 0.9) (end 1 0.9) (layer B.SilkS) (width 0.15))
-    (pad 1 smd rect (at -1.635 0 180) (size 0.91 1.22) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.635 0 90) (size 0.91 1.22) (layers B.Cu B.Paste B.Mask)
       (net 6 /COL0))
-    (pad 2 smd rect (at 1.635 0 180) (size 0.91 1.22) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.635 0 90) (size 0.91 1.22) (layers B.Cu B.Paste B.Mask)
       (net 22 "Net-(D13-Pad2)"))
     (model ${KISYS3DMOD}/Diodes_SMD.3dshapes/SOD-123.wrl
       (at (xyz 0 0 0))
@@ -1039,15 +1039,15 @@
   )
 
   (module Diodes_SMD:SOD-123 (layer B.Cu) (tedit 5753A53E) (tstamp 583F8A5F)
-    (at 74.93 149.86 180)
+    (at 71.247 151.638 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /57D64037)
     (attr smd)
-    (fp_text reference D17 (at 0 2 180) (layer B.SilkS)
+    (fp_text reference D17 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value D (at 0 -2.1 180) (layer B.Fab)
+    (fp_text value D (at 0 -2.1 90) (layer B.Fab)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start 0.25 0) (end 0.75 0) (layer B.Fab) (width 0.15))
@@ -1067,9 +1067,9 @@
     (fp_line (start -2.25 1.05) (end -2.25 -1.05) (layer B.CrtYd) (width 0.05))
     (fp_line (start -2 -0.9) (end 1 -0.9) (layer B.SilkS) (width 0.15))
     (fp_line (start -2 0.9) (end 1 0.9) (layer B.SilkS) (width 0.15))
-    (pad 1 smd rect (at -1.635 0 180) (size 0.91 1.22) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -1.635 0 90) (size 0.91 1.22) (layers B.Cu B.Paste B.Mask)
       (net 6 /COL0))
-    (pad 2 smd rect (at 1.635 0 180) (size 0.91 1.22) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 1.635 0 90) (size 0.91 1.22) (layers B.Cu B.Paste B.Mask)
       (net 26 "Net-(D17-Pad2)"))
     (model ${KISYS3DMOD}/Diodes_SMD.3dshapes/SOD-123.wrl
       (at (xyz 0 0 0))
@@ -1354,13 +1354,13 @@
     )
   )
 
-  (module Keyboard:CHERRY_PLATE_100H (layer F.Cu) (tedit 5840F4A2) (tstamp 583F8AAB)
+  (module Keyboard:CHERRY_PLATE_100H (layer F.Cu) (tedit 549A12A1) (tstamp 583F8AAB)
     (at 74.93 66.04)
     (path /57D60DCC)
-    (fp_text reference SW1 (at 0 3.175) (layer F.SilkS) hide
+    (fp_text reference SW1 (at 0 3.175) (layer F.SilkS)
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
-    (fp_text value F13 (at 0 3.175) (layer F.SilkS)
+    (fp_text value F1 (at 0 5.08) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text user 1.00u (at -5.715 8.255) (layer Dwgs.User)
@@ -1391,13 +1391,13 @@
     (pad HOLE np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu))
   )
 
-  (module Keyboard:CHERRY_PLATE_100H (layer F.Cu) (tedit 5840F4A9) (tstamp 583F8AB4)
+  (module Keyboard:CHERRY_PLATE_100H (layer F.Cu) (tedit 549A12A1) (tstamp 583F8AB4)
     (at 93.98 66.04)
     (path /57D60FA9)
-    (fp_text reference SW2 (at 0 3.175) (layer F.SilkS) hide
+    (fp_text reference SW2 (at 0 3.175) (layer F.SilkS)
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
-    (fp_text value F14 (at 0 3.175) (layer F.SilkS)
+    (fp_text value F2 (at 0 5.08) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text user 1.00u (at -5.715 8.255) (layer Dwgs.User)
@@ -1428,13 +1428,13 @@
     (pad HOLE np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu))
   )
 
-  (module Keyboard:CHERRY_PLATE_100H (layer F.Cu) (tedit 5840F4C0) (tstamp 583F8ABD)
+  (module Keyboard:CHERRY_PLATE_100H (layer F.Cu) (tedit 549A12A1) (tstamp 583F8ABD)
     (at 132.08 66.04)
     (path /57D60E45)
-    (fp_text reference SW3 (at 0 3.175) (layer F.SilkS) hide
+    (fp_text reference SW3 (at 0 3.175) (layer F.SilkS)
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
-    (fp_text value F16 (at 0 3.175) (layer F.SilkS)
+    (fp_text value F3 (at 0 5.08) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text user 1.00u (at -5.715 8.255) (layer Dwgs.User)
@@ -1465,13 +1465,13 @@
     (pad HOLE np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu))
   )
 
-  (module Keyboard:CHERRY_PLATE_100H (layer F.Cu) (tedit 5840F4B0) (tstamp 583F8AC6)
+  (module Keyboard:CHERRY_PLATE_100H (layer F.Cu) (tedit 583FA49E) (tstamp 583F8AC6)
     (at 113.03 66.04)
     (path /57D60E4B)
-    (fp_text reference SW4 (at 0 3.175) (layer F.SilkS) hide
+    (fp_text reference SW4 (at 0 3.175) (layer F.SilkS)
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
-    (fp_text value F15 (at 0 3.175) (layer F.SilkS)
+    (fp_text value F4 (at 0 5.08) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text user 1.00u (at -5.715 8.255) (layer Dwgs.User)
@@ -1502,13 +1502,13 @@
     (pad HOLE np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu))
   )
 
-  (module Keyboard:CHERRY_PLATE_100H (layer F.Cu) (tedit 5840F4CA) (tstamp 583F8ACF)
+  (module Keyboard:CHERRY_PLATE_100H (layer F.Cu) (tedit 549A12A1) (tstamp 583F8ACF)
     (at 74.93 85.09)
     (path /57D6235E)
-    (fp_text reference SW5 (at 0 3.175) (layer F.SilkS) hide
+    (fp_text reference SW5 (at 0 3.175) (layer F.SilkS)
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
-    (fp_text value NUMLOCK (at 0 3.175) (layer F.SilkS)
+    (fp_text value NUMLOCK (at 0 5.08) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text user 1.00u (at -5.715 8.255) (layer Dwgs.User)
@@ -1539,13 +1539,13 @@
     (pad HOLE np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu))
   )
 
-  (module Keyboard:CHERRY_PLATE_100H (layer F.Cu) (tedit 5840F4D2) (tstamp 583F8AD8)
+  (module Keyboard:CHERRY_PLATE_100H (layer F.Cu) (tedit 549A12A1) (tstamp 583F8AD8)
     (at 93.98 85.09)
     (path /57D62370)
-    (fp_text reference SW6 (at 0 3.175) (layer F.SilkS) hide
+    (fp_text reference SW6 (at 0 3.175) (layer F.SilkS)
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
-    (fp_text value SLASH (at 0 3.175) (layer F.SilkS)
+    (fp_text value SLASH (at 0 5.08) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text user 1.00u (at -5.715 8.255) (layer Dwgs.User)
@@ -1576,13 +1576,13 @@
     (pad HOLE np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu))
   )
 
-  (module Keyboard:CHERRY_PLATE_100H (layer F.Cu) (tedit 5840F4E1) (tstamp 583F8AE1)
+  (module Keyboard:CHERRY_PLATE_100H (layer F.Cu) (tedit 549A12A1) (tstamp 583F8AE1)
     (at 113.03 85.09)
     (path /57D62364)
-    (fp_text reference SW7 (at 0 3.175) (layer F.SilkS) hide
+    (fp_text reference SW7 (at 0 3.175) (layer F.SilkS)
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
-    (fp_text value STAR (at 0 3.175) (layer F.SilkS)
+    (fp_text value STAR (at 0 5.08) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text user 1.00u (at -5.715 8.255) (layer Dwgs.User)
@@ -1613,13 +1613,13 @@
     (pad HOLE np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu))
   )
 
-  (module Keyboard:CHERRY_PLATE_100H (layer F.Cu) (tedit 5840F4E8) (tstamp 583F8AEA)
+  (module Keyboard:CHERRY_PLATE_100H (layer F.Cu) (tedit 549A12A1) (tstamp 583F8AEA)
     (at 132.08 85.09)
     (path /57D6236A)
-    (fp_text reference SW8 (at 0 3.175) (layer F.SilkS) hide
+    (fp_text reference SW8 (at 0 3.175) (layer F.SilkS)
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
-    (fp_text value MINUS (at 0 3.175) (layer F.SilkS) hide
+    (fp_text value MINUS (at 0 5.08) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text user 1.00u (at -5.715 8.255) (layer Dwgs.User)
@@ -1650,13 +1650,13 @@
     (pad HOLE np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu))
   )
 
-  (module Keyboard:CHERRY_PLATE_100H (layer F.Cu) (tedit 5840F505) (tstamp 583F8AF3)
+  (module Keyboard:CHERRY_PLATE_100H (layer F.Cu) (tedit 549A12A1) (tstamp 583F8AF3)
     (at 74.93 104.14)
     (path /57D62D3F)
-    (fp_text reference SW9 (at 0 3.175) (layer F.SilkS) hide
+    (fp_text reference SW9 (at 0 3.175) (layer F.SilkS)
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
-    (fp_text value 7 (at 0 3.175) (layer F.SilkS) hide
+    (fp_text value 7 (at 0 5.08) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text user 1.00u (at -5.715 8.255) (layer Dwgs.User)
@@ -1687,13 +1687,13 @@
     (pad HOLE np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu))
   )
 
-  (module Keyboard:CHERRY_PLATE_100H (layer F.Cu) (tedit 5840F50E) (tstamp 583F8AFC)
+  (module Keyboard:CHERRY_PLATE_100H (layer F.Cu) (tedit 549A12A1) (tstamp 583F8AFC)
     (at 93.98 104.14)
     (path /57D62D51)
-    (fp_text reference SW10 (at 0 3.175) (layer F.SilkS) hide
+    (fp_text reference SW10 (at 0 3.175) (layer F.SilkS)
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
-    (fp_text value 8 (at 0 3.175) (layer F.SilkS)
+    (fp_text value 8 (at 0 5.08) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text user 1.00u (at -5.715 8.255) (layer Dwgs.User)
@@ -1724,13 +1724,13 @@
     (pad HOLE np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu))
   )
 
-  (module Keyboard:CHERRY_PLATE_100H (layer F.Cu) (tedit 5840F515) (tstamp 583F8B05)
+  (module Keyboard:CHERRY_PLATE_100H (layer F.Cu) (tedit 549A12A1) (tstamp 583F8B05)
     (at 113.03 104.14)
     (path /57D62D45)
-    (fp_text reference SW11 (at 0 3.175) (layer F.SilkS) hide
+    (fp_text reference SW11 (at 0 3.175) (layer F.SilkS)
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
-    (fp_text value 9 (at 0 3.175) (layer F.SilkS) hide
+    (fp_text value 9 (at 0 5.08) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text user 1.00u (at -5.715 8.255) (layer Dwgs.User)
@@ -1761,13 +1761,13 @@
     (pad HOLE np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu))
   )
 
-  (module Keyboard:CHERRY_PLATE_200V (layer F.Cu) (tedit 5840F570) (tstamp 583F8B0E)
+  (module Keyboard:CHERRY_PLATE_200V (layer F.Cu) (tedit 549A04CB) (tstamp 583F8B0E)
     (at 132.08 151.765)
     (path /57D62D4B)
-    (fp_text reference SW12 (at 3.175 0 90) (layer F.SilkS) hide
+    (fp_text reference SW12 (at 3.175 0 90) (layer F.SilkS)
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
-    (fp_text value PLUS (at 3.175 0 90) (layer F.SilkS)
+    (fp_text value PLUS (at 5.08 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text user 2.00u (at -5.715 17.78) (layer Dwgs.User)
@@ -1798,13 +1798,13 @@
     (pad HOLE np_thru_hole circle (at 0 -5.08 90) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu))
   )
 
-  (module Keyboard:CHERRY_PLATE_100H (layer F.Cu) (tedit 5840F522) (tstamp 583F8B17)
+  (module Keyboard:CHERRY_PLATE_100H (layer F.Cu) (tedit 549A12A1) (tstamp 583F8B17)
     (at 74.93 123.19)
     (path /57D63683)
-    (fp_text reference SW13 (at 0 3.175) (layer F.SilkS) hide
+    (fp_text reference SW13 (at 0 3.175) (layer F.SilkS)
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
-    (fp_text value 4 (at 0 3.175) (layer F.SilkS) hide
+    (fp_text value 4 (at 0 5.08) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text user 1.00u (at -5.715 8.255) (layer Dwgs.User)
@@ -1835,13 +1835,13 @@
     (pad HOLE np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu))
   )
 
-  (module Keyboard:CHERRY_PLATE_100H (layer F.Cu) (tedit 5840F529) (tstamp 583F8B20)
+  (module Keyboard:CHERRY_PLATE_100H (layer F.Cu) (tedit 549A12A1) (tstamp 583F8B20)
     (at 93.98 123.19)
     (path /57D63695)
-    (fp_text reference SW14 (at 0 3.175) (layer F.SilkS) hide
+    (fp_text reference SW14 (at 0 3.175) (layer F.SilkS)
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
-    (fp_text value 5 (at 0 3.175) (layer F.SilkS)
+    (fp_text value 5 (at 0 5.08) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text user 1.00u (at -5.715 8.255) (layer Dwgs.User)
@@ -1872,13 +1872,13 @@
     (pad HOLE np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu))
   )
 
-  (module Keyboard:CHERRY_PLATE_100H (layer F.Cu) (tedit 5840F535) (tstamp 583F8B29)
+  (module Keyboard:CHERRY_PLATE_100H (layer F.Cu) (tedit 549A12A1) (tstamp 583F8B29)
     (at 113.03 123.19)
     (path /57D63689)
-    (fp_text reference SW15 (at 0 3.175) (layer F.SilkS) hide
+    (fp_text reference SW15 (at 0 3.175) (layer F.SilkS)
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
-    (fp_text value 6 (at 0 3.175) (layer F.SilkS) hide
+    (fp_text value 6 (at 0 5.08) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text user 1.00u (at -5.715 8.255) (layer Dwgs.User)
@@ -1909,13 +1909,13 @@
     (pad HOLE np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu))
   )
 
-  (module Keyboard:CHERRY_PLATE_200V (layer F.Cu) (tedit 5840F577) (tstamp 583F8B32)
+  (module Keyboard:CHERRY_PLATE_200V (layer F.Cu) (tedit 549A04CB) (tstamp 583F8B32)
     (at 132.08 113.665)
     (path /57D6368F)
-    (fp_text reference SW16 (at 3.175 0 90) (layer F.SilkS) hide
+    (fp_text reference SW16 (at 3.175 0 90) (layer F.SilkS)
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
-    (fp_text value ENTER (at 3.175 0 90) (layer F.SilkS) hide
+    (fp_text value ENTER (at 5.08 0 90) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text user 2.00u (at -5.715 17.78) (layer Dwgs.User)
@@ -1946,13 +1946,13 @@
     (pad HOLE np_thru_hole circle (at 0 -5.08 90) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu))
   )
 
-  (module Keyboard:CHERRY_PLATE_100H (layer F.Cu) (tedit 5840F53F) (tstamp 583F8B3B)
+  (module Keyboard:CHERRY_PLATE_100H (layer F.Cu) (tedit 549A12A1) (tstamp 583F8B3B)
     (at 74.93 142.24)
     (path /57D6401F)
-    (fp_text reference SW17 (at 0 3.175) (layer F.SilkS) hide
+    (fp_text reference SW17 (at 0 3.175) (layer F.SilkS)
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
-    (fp_text value 1 (at 0 3.175) (layer F.SilkS)
+    (fp_text value 1 (at 0 5.08) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text user 1.00u (at -5.715 8.255) (layer Dwgs.User)
@@ -1983,13 +1983,13 @@
     (pad HOLE np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu))
   )
 
-  (module Keyboard:CHERRY_PLATE_100H (layer F.Cu) (tedit 5840F546) (tstamp 583F8B44)
+  (module Keyboard:CHERRY_PLATE_100H (layer F.Cu) (tedit 549A12A1) (tstamp 583F8B44)
     (at 93.98 142.24)
     (path /57D64031)
-    (fp_text reference SW18 (at 0 3.175) (layer F.SilkS) hide
+    (fp_text reference SW18 (at 0 3.175) (layer F.SilkS)
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
-    (fp_text value 2 (at 0 3.175) (layer F.SilkS) hide
+    (fp_text value 2 (at 0 5.08) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text user 1.00u (at -5.715 8.255) (layer Dwgs.User)
@@ -2020,13 +2020,13 @@
     (pad HOLE np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu))
   )
 
-  (module Keyboard:CHERRY_PLATE_100H (layer F.Cu) (tedit 5840F54E) (tstamp 583F8B4D)
+  (module Keyboard:CHERRY_PLATE_100H (layer F.Cu) (tedit 549A12A1) (tstamp 583F8B4D)
     (at 113.03 142.24)
     (path /57D64025)
-    (fp_text reference SW19 (at 0 3.175) (layer F.SilkS) hide
+    (fp_text reference SW19 (at 0 3.175) (layer F.SilkS)
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
-    (fp_text value 3 (at 0 3.175) (layer F.SilkS) hide
+    (fp_text value 3 (at 0 5.08) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text user 1.00u (at -5.715 8.255) (layer Dwgs.User)
@@ -2057,13 +2057,13 @@
     (pad HOLE np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu))
   )
 
-  (module Keyboard:CHERRY_PLATE_200H (layer F.Cu) (tedit 5840F560) (tstamp 583F8B56)
+  (module Keyboard:CHERRY_PLATE_200H (layer F.Cu) (tedit 549A12BC) (tstamp 583F8B56)
     (at 84.455 161.29)
     (path /57D6402B)
-    (fp_text reference SW20 (at 0 3.175) (layer F.SilkS) hide
+    (fp_text reference SW20 (at 0 3.175) (layer F.SilkS)
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
-    (fp_text value 0 (at 0 3.175) (layer F.SilkS)
+    (fp_text value 0 (at 0 5.08) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text user 2.00u (at -15.24 8.255) (layer Dwgs.User)
@@ -2094,13 +2094,13 @@
     (pad HOLE np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu))
   )
 
-  (module Keyboard:CHERRY_PLATE_100H (layer F.Cu) (tedit 5840F567) (tstamp 583F8B5F)
+  (module Keyboard:CHERRY_PLATE_100H (layer F.Cu) (tedit 549A12A1) (tstamp 583F8B5F)
     (at 113.03 161.29)
     (path /57D64EC5)
-    (fp_text reference SW21 (at 0 3.175) (layer F.SilkS) hide
+    (fp_text reference SW21 (at 0 3.175) (layer F.SilkS)
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
-    (fp_text value PERIOD (at 0 3.175) (layer F.SilkS) hide
+    (fp_text value PERIOD (at 0 5.08) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text user 1.00u (at -5.715 8.255) (layer Dwgs.User)
@@ -2444,68 +2444,9 @@
       (solder_mask_margin 0.2))
   )
 
-  (module Connect:1pin (layer F.Cu) (tedit 5840F362) (tstamp 5840F33C)
-    (at 84.455 75.946)
-    (descr "module 1 pin (ou trou mecanique de percage)")
-    (tags DEV)
-    (path /5840D1D0)
-    (fp_text reference P2 (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value "" (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_circle (center 0 0) (end 0 -2.286) (layer F.SilkS) (width 0.15))
-    (pad 1 thru_hole circle (at 0 0) (size 4.064 4.064) (drill 3.048) (layers *.Cu *.Mask)
-      (net 2 GND))
-  )
-
-  (module Connect:1pin (layer F.Cu) (tedit 5840F350) (tstamp 5840F341)
-    (at 122.809 75.946)
-    (descr "module 1 pin (ou trou mecanique de percage)")
-    (tags DEV)
-    (path /5840D324)
-    (fp_text reference P3 (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value "" (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_circle (center 0 0) (end 0 -2.286) (layer F.SilkS) (width 0.15))
-    (pad 1 thru_hole circle (at 0 0) (size 4.064 4.064) (drill 3.048) (layers *.Cu *.Mask)
-      (net 2 GND))
-  )
-
-  (module Connect:1pin (layer F.Cu) (tedit 5840F35E) (tstamp 5840F346)
-    (at 84.455 151.13)
-    (descr "module 1 pin (ou trou mecanique de percage)")
-    (tags DEV)
-    (path /5840D3EB)
-    (fp_text reference P4 (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value "" (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_circle (center 0 0) (end 0 -2.286) (layer F.SilkS) (width 0.15))
-    (pad 1 thru_hole circle (at 0 0) (size 4.064 4.064) (drill 3.048) (layers *.Cu *.Mask)
-      (net 2 GND))
-  )
-
-  (module Connect:1pin (layer F.Cu) (tedit 5840F354) (tstamp 5840F34B)
-    (at 122.555 151.13)
-    (descr "module 1 pin (ou trou mecanique de percage)")
-    (tags DEV)
-    (path /5840D4B5)
-    (fp_text reference P5 (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value "" (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_circle (center 0 0) (end 0 -2.286) (layer F.SilkS) (width 0.15))
-    (pad 1 thru_hole circle (at 0 0) (size 4.064 4.064) (drill 3.048) (layers *.Cu *.Mask)
-      (net 2 GND))
-  )
+  (segment (start 71.12 63.5) (end 71.12 73.676) (width 0.1524) (layer B.Cu) (net 7))
+  (segment (start 71.12 73.676) (end 71.247 73.803) (width 0.1524) (layer B.Cu) (net 7) (tstamp 5840FCC3))
+  (segment (start 71.12 82.55) (end 71.12 92.98) (width 0.1524) (layer B.Cu) (net 14))
+  (segment (start 71.12 92.98) (end 71.247 93.107) (width 0.1524) (layer B.Cu) (net 14) (tstamp 5840FCC7))
 
 )
