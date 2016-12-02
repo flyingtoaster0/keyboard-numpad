@@ -3,9 +3,9 @@
   (general
     (links 106)
     (no_connects 0)
-    (area 65.303399 55.114199 141.706601 172.0374)
+    (area 65.989999 54.559999 142.290001 168.960001)
     (thickness 1.6)
-    (drawings 0)
+    (drawings 4)
     (tracks 561)
     (zones 0)
     (modules 61)
@@ -2506,6 +2506,11 @@
     (pad 1 thru_hole circle (at 0 0) (size 4.064 4.064) (drill 3.048) (layers *.Cu *.Mask)
       (net 2 GND))
   )
+
+  (gr_line (start 66.04 168.91) (end 66.04 54.61) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 142.24 168.91) (end 66.04 168.91) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 142.24 54.61) (end 142.24 168.91) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 66.04 54.61) (end 142.24 54.61) (angle 90) (layer Edge.Cuts) (width 0.1))
 
   (segment (start 83.566 90.297) (end 83.82 90.297) (width 0.1524) (layer F.Cu) (net 0))
   (segment (start 136.763 119.761) (end 136.763 121.269) (width 0.1524) (layer B.Cu) (net 1))
