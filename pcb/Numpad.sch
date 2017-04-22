@@ -515,7 +515,7 @@ F 3 "" H 8250 3950 50  0000 C CNN
 	1    8250 3950
 	1    0    0    -1  
 $EndComp
-Text Label 5800 4000 0    60   ~ 0
+Text Label 8550 2050 2    60   ~ 0
 NUMLOCK_LED
 Text Label 7550 3950 2    60   ~ 0
 NUMLOCK_LED
